@@ -1,0 +1,47 @@
+<!--
+File: index.html
+Author: Lieszkofszki Norbert
+Copyright: 2024, Lieszkofszki Norbert
+Group: Szoft 1/I/N
+Date: 2024-03-14
+Github: https://github.com/Erenyss
+Licenc: GNU GPL
+-->
+<!DOCTYPE HTML>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ellipszoid Számítás</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="input">
+                <label for="input_a">A tengely:</label>
+                <input type="text" class="form-control" id="input_a">
+            </div>
+            <div class="input">
+                <label for="input_b">B tengely:</label>
+                <input type="text" class="form-control" id="input_b">
+            </div>
+            <div class="input">
+                <label for="input_c">C tengely:</label>
+                <input type="text" class="form-control" id="input_c">
+            </div>
+            <div>
+                <button id="calcButton" class="btn btn-primary">Számít</button>
+            </div>
+            <div class="input">
+                <label for="Terfog">Térfogat:</label>
+                <input type="text" class="form-control"
+                id="Terfog" readonly>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
